@@ -2,7 +2,7 @@ FROM tomcat:8.0-alpine
 
 COPY target/whiteApp-v.1.0.war /usr/local/tomcat/webapps/whiteApp.war
 
-EXPOSE 8060
+EXPOSE 8080
 
 CMD ["catalina.sh", "run"]
 #STEPS#
