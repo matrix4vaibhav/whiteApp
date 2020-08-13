@@ -5,7 +5,6 @@ COPY target/whiteApp-v.1.0.war /usr/local/tomcat/webapps/whiteApp.war
 EXPOSE 8090
 
 CMD ["catalina.sh", "run"]
-
 #STEPS#
 # Build application
 # Run at local IDE
