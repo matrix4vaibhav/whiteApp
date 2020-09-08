@@ -13,7 +13,7 @@ Steps to load on Github:
      $ git commit -m "First commit"
 7. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.
 8. $ git remote add origin remote repository URL
-9. # Sets the new remote
+9. Sets the new remote
    $ git remote -v
    # Verifies the new remote URL
 10. Push the changes in your local repository to GitHub.
