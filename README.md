@@ -15,7 +15,6 @@ Steps to load on Github:
 8. $ git remote add origin remote repository URL
 9. Sets the new remote
    $ git remote -v
-   # Verifies the new remote URL
 10. Push the changes in your local repository to GitHub.
 $ git push -u origin master
 
