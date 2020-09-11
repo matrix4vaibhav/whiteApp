@@ -12,11 +12,13 @@ Steps to load on Github:
 6. Commit the files that you've staged in your local repository.
      $ git commit -m "First commit"
 7. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.
-8. $ git remote add origin remote repository URL
+8. git remote add origin remote repository URL
 9. Sets the new remote
    $ git remote -v
 10. Push the changes in your local repository to GitHub.
 $ git push -u origin master
+11. The “fatal: refusing to merge unrelated histories” Git error occurs when two unrelated projects are merged.
+Solution: git pull origin master --allow-unrelated-histories
 
 
 Reference: https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
