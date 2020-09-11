@@ -18,6 +18,7 @@ Steps to load on Github:
 10. Push the changes in your local repository to GitHub.
 $ git push -u origin master
 11. The “fatal: refusing to merge unrelated histories” Git error occurs when two unrelated projects are merged.
+
 Solution: git pull origin master --allow-unrelated-histories
 
 
