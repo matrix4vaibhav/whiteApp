@@ -25,5 +25,12 @@ Solution: git pull origin master --allow-unrelated-histories
 Reference: https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
 # Testing the application
-1. docker run -d -p 8080:8080 vagoel66/vagoel66-repo:whiteapp
-2. Hit http://localhost:8080/whiteApp/
+1. docker run -d -p 8090:8080 vagoel66/vagoel66-repo:whiteapp
+2. Hit http://localhost:8090/whiteApp/
+3. Copy the process id of running whiteapp container.
+     $ docker ps -a
+4. Check the application port running on container.
+     For ex: $ docker port 2a30f9230f8b
+               8080/tcp -> 0.0.0.0:8090
+          Here internal application is hosted on port 8080 in container whereas the application is exposed to port 8090.
+  
