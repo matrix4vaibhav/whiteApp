@@ -23,3 +23,7 @@ Solution: git pull origin master --allow-unrelated-histories
 
 
 Reference: https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+# Testing the application
+1. docker run -d -p 8080:8080 vagoel66/vagoel66-repo:whiteapp
+2. Hit http://localhost:8080/whiteApp/
